@@ -22,7 +22,6 @@ body {
 }
 
 .cont-logo {
-    position: absolute;
     border-right: 1px solid #f0f0f0;
 } 
 
@@ -34,19 +33,23 @@ body {
 }
 
 .cont-logo,
+.nav-links {
+    position: absolute;
+}
+
+.cont-logo,
 .cont-icons {
     width: 190px;
     height: 120px;
 }
 
 .nav-links {
-    position: absolute;
+    display: flex;
+    justify-content: center;
     width: 36%;
     height: 30px;
     text-align: center;
     list-style: none;
-    display: flex;
-    justify-content: center;
     margin-left: 32%;
     margin-top: 48px;
 }
@@ -66,7 +69,6 @@ body {
 
 .cont-icons {
     float: right;
-    position: relative;
     border-left: 1px solid #f0f0f0;
 }
 
@@ -93,4 +95,66 @@ body {
 .cont-main img {
     width: 100%;
     background-repeat: no-repeat;
+}
+
+.cont-main h2,
+.cont-main .border-left,
+.cont-main .border-right,
+.cont-main h1,
+.cont-main .line-dark,
+.cont-main p {
+    position: absolute;
+}
+
+.cont-main h2 {
+    top: 41.2%;
+    left: 43%;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.cont-main h2,
+.cont-main h1 {
+    text-transform: uppercase;
+    color: #212529;
+}
+
+.cont-main .border-left {
+    left: 39%;
+}
+
+.cont-main .border-left,
+.cont-main .border-right {
+    width: 50px;
+    top: 42.1%;
+}
+
+.cont-main .border-right {
+    left: 57.6%;
+}
+
+.cont-main h1 {
+    font-size: 58px;
+    font-weight: 900;
+    top: 45%;
+    left: 36.3%;
+}
+
+.cont-main .line-dark {
+    width: 55px;
+    top: 44.2%;
+    left: 53.4%;
+    color: #2d2d2d;
+}
+
+.cont-main p {
+    top: 53%;
+    left: 41%;
+    font-size: 20px;
+    color: #262b2f;
+}
+
+.cont-text { 
+    height: 600px;
+    background: #dddd;
 }
