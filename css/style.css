@@ -9,7 +9,8 @@ body {
 }
 
 /* UTILITIES */
-.cont-icons::after {
+.cont-icons::after,
+.cont-services::after {
     content: '';
     display: table;
     clear: both;
@@ -55,7 +56,7 @@ body {
 }
 
 .nav-links a:hover {
-    color: #38bea2;
+    color: #1ab895;
     transition: .2s;
 }
 
@@ -108,7 +109,7 @@ body {
 
 .cont-main h2 {
     top: 41.2%;
-    left: 43%;
+    left: 44%;
     font-weight: 600;
     font-size: 24px;
 }
@@ -120,7 +121,7 @@ body {
 }
 
 .cont-main .border-left {
-    left: 39%;
+    left: 40%;
 }
 
 .cont-main .border-left,
@@ -130,31 +131,127 @@ body {
 }
 
 .cont-main .border-right {
-    left: 57.6%;
+    left: 58.7%;
 }
 
 .cont-main h1 {
     font-size: 58px;
     font-weight: 900;
     top: 45%;
-    left: 36.3%;
+    left: 37.3%;
 }
 
 .cont-main .line-dark {
     width: 55px;
     top: 44.2%;
-    left: 53.4%;
+    left: 54.5%;
     color: #2d2d2d;
 }
 
 .cont-main p {
     top: 53%;
-    left: 41%;
+    left: 41.7%;
     font-size: 20px;
     color: #262b2f;
 }
 
-.cont-text { 
+/* SOLUTIONS */
+.cont-solutions { 
     height: 600px;
-    background: #dddd;
 }
+
+.cont-solutions .title {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.cont-solutions .text-1 {
+    margin-top: 20px;
+}
+
+.cont-solutions .text-1,
+.cont-solutions .text-1-1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.cont-solutions .text-1-1 {
+    margin-top: 10px;
+}
+
+.cont-solutions .text-2 {
+    margin-top: 30px;
+}
+
+.cont-solutions .text-2,
+.cont-solutions .text-2-1 {
+    text-align: center;
+    font-size: 20px;
+    color: #858a8d;
+}
+
+.cont-solutions .text-2-1 {
+    margin-top: 5px;
+}
+
+/* SERVICES (sections) */
+.section-1 {
+    float: left;
+    width: 250px;
+    height: 200px;
+    margin-left: 20%;
+}
+
+.section-1 .fa-tablet-alt {
+    margin-top: 40px;
+    margin-left: 45%;
+}
+
+.section-1 .fa-tablet-alt,
+.section-2 .fa-layer-group,
+.section-3 .fa-search,
+.section-4 .fa-tv {
+    font-size: 40px;
+    color: #3cba9f;
+}
+
+.section-1 .title1 {
+    margin-top: 15px;
+    margin-left: 30.6%;
+}
+
+.section-1 .title1,
+.section-2 .title2,
+.section-3 .title3,
+.section-4 .title4 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.section-1 .text1 {
+    margin-top: 15px;
+    margin-left: 8%;
+}
+.section-1 .text1,
+.section-1 .text1-1,
+.section-2 .text2,
+.section-2 .text2-1,
+.section-3 .text3,
+.section-3 .text3-1,
+.section-4 .text4,
+.section-4 .text4-1{
+    font-size: 18px;
+    color: #858a8d;
+}
+
+.section-1 .text1-1 {
+    margin-top: 8px;
+    margin-left: 14.8%;
+}
+
+/* .section-2 .fa-layer-group {
+    margin-left: 40%;
+} */
