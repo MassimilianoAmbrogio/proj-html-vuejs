@@ -39,6 +39,31 @@ body {
     height: 120px;
 }
 
+.nav-links {
+    position: absolute;
+    width: 36%;
+    height: 30px;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 32%;
+    margin-top: 48px;
+}
+
+.nav-links a:hover {
+    color: #38bea2;
+    transition: .2s;
+}
+
+.nav-links a {
+    padding: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #444444;
+    font-weight: bold;
+}
+
 .cont-icons {
     float: right;
     position: relative;
@@ -58,4 +83,14 @@ body {
 .cont-icons .fa-twitter,
 .cont-icons .fa-linkedin-in {
     margin-left: 25px;
+}
+
+/* MAIN */
+.cont-main {
+    width: 100%;
+}
+
+.cont-main img {
+    width: 100%;
+    background-repeat: no-repeat;
 }

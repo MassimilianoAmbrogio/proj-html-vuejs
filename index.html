@@ -23,11 +23,13 @@
               <img src="./img/logo-corporate-9.png" alt="logo Porto">
            </div>
            <!-- Link -->
-      <!-- <ul class="nav-link">
-              <li>
-                    
+           <ul class="nav-links">
+              <li v-for="link in links">
+                  <a :href="`linkto:${link}`">
+                      {{link}}
+                  </a>  
               </li>
-           </ul> -->
+           </ul>
            <!-- Icons -->
            <div class="cont-icons">
               <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -36,7 +38,8 @@
            </div>
       </header>
       <!-- Main content -->
-      <main>
+      <main class="cont-main">
+          <img src="./img/slide-corporate-9-1.jpg" alt="Img Corporate">
           
       </main>
     </div>
