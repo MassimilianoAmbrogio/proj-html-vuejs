@@ -10,7 +10,9 @@ body {
 
 /* UTILITIES */
 .cont-icons::after,
-.cont-services::after {
+.cont-services::after,
+.cont.text::after,
+.cont-num::after {
     content: '';
     display: table;
     clear: both;
@@ -157,7 +159,7 @@ body {
 
 /* SOLUTIONS */
 .cont-solutions { 
-    height: 600px;
+    height: 535px;
 }
 
 .cont-solutions .title {
@@ -199,15 +201,37 @@ body {
 
 /* SERVICES (sections) */
 .section-1 {
-    float: left;
     width: 250px;
     height: 200px;
-    margin-left: 20%;
+    margin-top: 20px;
+    margin-left: 21%;
 }
 
 .section-1 .fa-tablet-alt {
     margin-top: 40px;
     margin-left: 45%;
+}
+
+.section-1 .title1 {
+    margin-top: 15px;
+    margin-left: 30.6%;
+}
+
+.section-1 .text1 {
+    margin-top: 15px;
+    margin-left: 8%;
+}
+
+.section-1 .text1-1 {
+    margin-top: 8px;
+    margin-left: 14.8%;
+}
+
+.section-1,
+.section-2,
+.section-3,
+.section-4 {
+    float: left;
 }
 
 .section-1 .fa-tablet-alt,
@@ -218,11 +242,6 @@ body {
     color: #3cba9f;
 }
 
-.section-1 .title1 {
-    margin-top: 15px;
-    margin-left: 30.6%;
-}
-
 .section-1 .title1,
 .section-2 .title2,
 .section-3 .title3,
@@ -231,10 +250,6 @@ body {
     font-weight: 900;
 }
 
-.section-1 .text1 {
-    margin-top: 15px;
-    margin-left: 8%;
-}
 .section-1 .text1,
 .section-1 .text1-1,
 .section-2 .text2,
@@ -247,11 +262,169 @@ body {
     color: #858a8d;
 }
 
-.section-1 .text1-1 {
-    margin-top: 8px;
-    margin-left: 14.8%;
+.section-2 {
+    width: 250px;
+    height: 160px;
+    margin-top: 51px;
+    margin-left: 42px;
 }
 
-/* .section-2 .fa-layer-group {
-    margin-left: 40%;
-} */
+.section-2 .fa-layer-group {
+    margin-top: 9px;
+    margin-left: 41%;
+}
+
+.section-2 .title2 {
+    margin-top: 15px;
+    margin-left: 21%;
+}
+
+.section-2 .text2 {
+    margin-top: 14px;
+    margin-left: 7%;
+}
+
+.section-2 .text2-1 {
+    margin-top: 8px;
+    margin-left: 13.8%;
+}
+
+.section-3 {
+    width: 250px;
+    height: 160px;
+    margin-top: 51px;
+    margin-left: 42px;
+}
+
+.section-3 .fa-search {
+    margin-top: 8px;
+    margin-left: 41%;
+}
+
+.section-3 .title3 {
+    margin-top: 15px;
+    margin-left: 21%;
+}
+
+.section-3 .text3 {
+    margin-top: 14px;
+    margin-left: 7%;
+}
+
+.section-3 .text3-1 {
+    margin-top: 8px;
+    margin-left: 13.8%;
+}
+
+.section-4 {
+    width: 250px;
+    height: 160px;
+    margin-top: 51px;
+    margin-left: 42px;
+}
+
+.section-4 .fa-tv {
+    margin-top: 8px;
+    margin-left: 38%;
+}
+
+.section-4 .title4 {
+    margin-top: 15px;
+    margin-left: 23%;
+}
+
+.section-4 .text4 {
+    margin-top: 14px;
+    margin-left: 7%;
+}
+
+.section-4 .text4-1 {
+    margin-top: 8px;
+    margin-left: 13.8%;
+}
+
+/* COMPANY NUMBERS */
+.cont-numbers {
+    width: 100%;
+    height: 300px;
+}
+
+.cont-numbers img {
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+/* COMPANY TEXT, NUM */
+.cont-text {
+    position: absolute;
+    top: 164%;
+    left: 21%;
+    width: 640px;
+    height: 250px;
+    background: #ddd;
+}
+
+.cont-text h5 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #3cba9f;
+}
+
+.cont-text h4 {
+    float: left;
+    margin-top: 10px;
+    font-size: 28px;
+}
+
+.cont-text span {
+    float: left;
+    margin-top: 8px;
+    margin-left: 7px;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.cont-text p {
+    float: left;
+    margin-top: 16px;
+    font-size: 20px;
+    color: #8e9698;
+}
+
+.cont-text button {
+    padding: 15px 20px;
+    margin-top: 28px;
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #1fb58c;
+    background: transparent;
+    border: 2px solid #1fb58c;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.cont-num {
+    position: absolute;
+    top: 164%;
+    left: 58%;
+    width: 640px;
+    height: 250px;
+    background: #ddd;
+}
+
+.cont-num .n1 {
+    float: left;
+    margin-top: 15px;
+    margin-left: 23px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.cont-num .text-n1 {
+    position: absolute;
+    margin-top: 78px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #2e3338;
+}
