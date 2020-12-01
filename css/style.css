@@ -360,8 +360,7 @@ body {
     top: 164%;
     left: 21%;
     width: 640px;
-    height: 250px;
-    background: #ddd;
+    height: 228px;
 }
 
 .cont-text h5 {
@@ -370,10 +369,10 @@ body {
     color: #3cba9f;
 }
 
-.cont-text h4 {
+.cont-text p {
     float: left;
     margin-top: 10px;
-    font-size: 28px;
+    font-size: 26px;
 }
 
 .cont-text span {
@@ -384,7 +383,7 @@ body {
     font-size: 30px;
 }
 
-.cont-text p {
+.cont-text .text {
     float: left;
     margin-top: 16px;
     font-size: 20px;
@@ -404,16 +403,15 @@ body {
     cursor: pointer;
 }
 
-.cont-num {
+.cont-num1 {
     position: absolute;
     top: 164%;
     left: 58%;
-    width: 640px;
-    height: 250px;
-    background: #ddd;
+    width: 350px;
+    height: 110px;
 }
 
-.cont-num .n1 {
+.cont-num1 .n1 {
     float: left;
     margin-top: 15px;
     margin-left: 23px;
@@ -421,10 +419,73 @@ body {
     font-weight: 900;
 }
 
-.cont-num .text-n1 {
+.cont-num1 .text-n1 {
     position: absolute;
     margin-top: 78px;
-    margin-left: 10px;
-    font-size: 20px;
+    margin-left: 14px;
+    font-size: 18px;
     color: #2e3338;
+}
+
+.cont-num1 .n2 {
+    float: right;
+    margin-top: 15px;
+    margin-right: 13px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.cont-num1 .text-n2 {
+    position: absolute;
+    margin-top: 78px;
+    margin-left: 61%;
+    font-size: 18px;
+    color: #2e3338;
+}
+
+.cont-num2 {
+    position: absolute;
+    top: 177%;
+    left: 58%;
+    width: 350px;
+    height: 110px;
+}
+
+.cont-num2 .n3 {
+    float: left;
+    margin-top: 20px;
+    margin-left: 41px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.cont-num2 .text-n3 {
+    position: absolute;
+    margin-top: 22.6%;
+    margin-left: 14px;
+    font-size: 18px;
+    color: #2e3338;
+}
+
+.cont-num2 .n4 {
+    float: right;
+    margin-top: 20px;
+    margin-right: 16px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.cont-num2 .text-n4 {
+    position: absolute;
+    margin-top: 22.6%;
+    margin-left: 60%;
+    font-size: 18px;
+    color: #2e3338;
+}
+
+/* IMGS, TEXT */
+.cont-imgs {
+    width: 100%;
+    height: 800px;
+    border-bottom: 1px solid #ccc;
 }
