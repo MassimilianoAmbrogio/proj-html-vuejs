@@ -657,7 +657,6 @@ body {
 .log-1 img {
     width: 160px;
     margin-left: 20px;
-    color: #e3e9eb;
 }
 
 .log-2 {
@@ -667,7 +666,6 @@ body {
 .log-2 img {
     width: 160px;
     margin-left: 20px;
-    color: #e3e9eb;
 }
 
 .log-3 {
@@ -677,7 +675,6 @@ body {
 .log-3 img {
     width: 160px;
     margin-left: 20px;
-    color: #e3e9eb;
 }
 
 .log-4 {
@@ -687,7 +684,6 @@ body {
 .log-4 img {
     width: 160px;
     margin-left: 20px;
-    color: #e3e9eb;
 }
 
 .log-5 {
@@ -697,7 +693,6 @@ body {
 .log-5 img {
     width: 160px;
     margin-left: 20px;
-    color: #e3e9eb;
 }
 
 .log-6 {
@@ -707,7 +702,6 @@ body {
 .log-6 img {
     width: 160px;
     margin-left: 20px;
-    color: #e3e9eb;
 }
 
 .log-7 {
@@ -717,13 +711,12 @@ body {
 .log-7 img {
     width: 160px;
     margin-left: 20px;
-    color: #e3e9eb;
 }
 
 /* USER */
 .cont-user {
     width: 100%;
-    height: 500px;
+    height: 430px;
     background: #ededed;
 }
 
@@ -731,7 +724,6 @@ body {
     width: 37.4%;
     height: 400px;
     margin-left: 29.6%;
-    background: #ddd;
 }
 
 .user img {
@@ -744,7 +736,7 @@ body {
 .cont-user .fa-quote-left {
     float: left;
     margin-top: 8%;
-    margin-left: 28%;
+    margin-left: 27.4%;
     font-size: 22px;
 }
 
@@ -760,3 +752,60 @@ body {
     margin-top: 11px;
     font-size: 22px;
 }
+
+.user h6 {
+    margin-top: 45px;
+    margin-left: 39.6%;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.icons {
+    width: 76px;
+    height: 28px;
+    margin-top: 12px;
+    margin-left: 43.8%;
+}
+
+.user .fa-circle {
+    padding: 6px;
+    font-size: 10px;
+    color: #d6d6d6;
+    cursor: pointer;
+    transition: color .4s;
+}
+
+.user .fa-circle:hover {
+    color: #fff;
+}
+
+.user .fa-circle.active {
+    color: #1ab895;
+}
+
+/* FOOTER */
+.cont-footer {
+    width: 100%;
+    height: 300px;
+    background: #20242d;
+}
+
+/* .cont-icon {
+    float: right;
+    border-left: 1px solid #f0f0f0;
+}
+
+.cont-icon i {
+    font-size: 20px;
+    color: #333333;
+}
+
+.cont-icon .fa-facebook-f {
+    margin-left: 44px;
+    margin-top: 45px;
+}
+
+.cont-icon .fa-twitter,
+.cont-icon .fa-linkedin-in {
+    margin-left: 25px;
+} */
