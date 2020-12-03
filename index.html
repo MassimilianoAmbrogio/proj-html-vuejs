@@ -32,9 +32,12 @@
            </ul>
            <!-- Icons -->
            <div class="cont-icons">
-              <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
-              <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
-              <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+              <a v-for="icon in icon1"
+                 :href="`${icon}`"><i class="fab fa-facebook-f"></i></a>
+              <a v-for="icon in icon2"
+                 :href="`${icon}`"><i class="fab fa-twitter"></i></a>
+              <a v-for="icon in icon3"
+                 :href="`${icon}`"><i class="fab fa-linkedin-in"></i></a>
            </div>
       </header>
       <!-- Main content (title, subtitle, text) -->
@@ -213,9 +216,12 @@
       <!-- Footer icons -->
       <footer class="cont-footer">
          <div class="cont-icon">
-            <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+            <a v-for="icon in icon1"
+               :href="`${icon}`"><i class="fab fa-facebook-f"></i></a>
+            <a v-for="icon in icon2"
+               :href="`${icon}`"><i class="fab fa-twitter"></i></a>
+            <a v-for="icon in icon3"
+               :href="`${icon}`"><i class="fab fa-linkedin-in"></i></a>
          </div> 
       </footer>
       <!-- Contacts -->
@@ -229,7 +235,7 @@
             <p class="text3">mail@example.com</p>
             <!-- Copyright -->
             <p class="copyright">
-               &copy; Copyright 2020. All Rights Reserved.
+               &copy; Copyright {{year}}. All Rights Reserved.
             </p>
             <a href="#"><i class="fas fa-angle-up"></i></a>
          </div>
