@@ -10,6 +10,6 @@ const app = new Vue({
         icon1: ['https://www.facebook.com'],
         icon2: ['https://www.twitter.com'],
         icon3: ['https://www.linkedin.com'],
-        year: '2020'
+        year: '2021'
     }
 });

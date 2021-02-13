@@ -360,7 +360,7 @@ body {
 /* COMPANY TEXT, NUM */
 .cont-text {
     position: absolute;
-    top: 164%;
+    top: 154%;
     left: 21%;
     width: 640px;
     height: 228px;
@@ -408,7 +408,7 @@ body {
 
 .cont-num1 {
     position: absolute;
-    top: 164%;
+    top: 153%;
     left: 58%;
     width: 350px;
     height: 110px;
@@ -448,7 +448,7 @@ body {
 
 .cont-num2 {
     position: absolute;
-    top: 177%;
+    top: 166%;
     left: 58%;
     width: 350px;
     height: 110px;
@@ -539,7 +539,7 @@ body {
 
 .cont-img2 {
     position: absolute;
-    top: 190.4%;
+    top: 178.2%;
     width: 300px;
     height: 400px;
     margin-top: 7%;
@@ -585,7 +585,7 @@ body {
 
 .cont-img3 {
     position: absolute;
-    top: 190.4%;
+    top: 178.2%;
     width: 300px;
     height: 400px;
     margin-top: 7%;
